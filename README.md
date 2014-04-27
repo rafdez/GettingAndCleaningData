@@ -1,9 +1,9 @@
 
-# Getting and Cleaning Data Project: Peer Assessments
+## Getting and Cleaning Data - Peer Assessment
 
 The purpose of this repository is the peer assessment of the course *Getting and Cleaning Data* which is part of the Coursera Data Science Specialization.
 
-The goal of the assessment is to prepare tidy data that can be used for later analysis. The assessment have to be comprise of the following minimun files: a README.md (this file) that explains how all of the scripts work and how they are connected. A code book [CodeBook.md](https://github.com/rafdez/PeerAssessment3/CodeBook.md) that describes the variables, the data, and any transformations or work that you performed to clean up the data called. Finally, a R script called [run_analysis.R](https://github.com/rafdez/PeerAssessment3/run_analysis.R) that does the following:
+The goal of the assessment is to prepare tidy data that can be used for later analysis. The assessment have to be comprise of the following minimun files: a README.md (this file) that explains how all of the scripts work and how they are connected. A code book [CodeBook.md](CodeBook.md) that describes the variables, the data, and any transformations or work that you performed to clean up the data called. Finally, a R script called [run_analysis.R](run_analysis.R) that does the following:
 
   1. Merges the training and the test sets to create one data set.
   2. Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -11,7 +11,7 @@ The goal of the assessment is to prepare tidy data that can be used for later an
   4. Appropriately labels the data set with descriptive activity names. 
   5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## The dataset
+### The dataset
 
 The dataset is related to wearable computing and human activity recognition. In particular, it was built from the recordings of 30 subjects performing activities of daily living (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while carrying a waist-mounted smartphone with embedded inertial sensors (accelerometer and gyroscope).
 
@@ -20,7 +20,7 @@ A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
-## The scripts
+### The scripts
 
 There is only one script in this assessment, the mandatory **run_analysis.R**. In order to run this script, the unzip '*UCI HAR Dataset.zip*' file have to be in your working directory. Otherwise, you have to pass the directory to the function *har()*.
 
